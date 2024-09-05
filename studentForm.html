@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+    <style>
+        .student{
+            max-width:400px;
+            margin:auto;
+            padding:100px;
+            background-color:white;
+            border-radius:8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="student">
+        <h1>Student Details</h1>
+        <form>
+            <label>Full Name : </label>
+            <input type="text" placeholder="Enter Name"/>
+            <br/><br/>
+            <label>Date Of Birth : </label>
+            <input type="date"/>
+            <br/><br/>
+            <label>Age : </label>
+            <input type="number" placeholder="Enter Age"/>
+            <br/><br/>
+            <label>College Name : </label>
+            <input type="text" placeholder="Enter College Name"/>
+            <br/><br/>
+            <label>Phone Number : </label>
+            <input type="number" placeholder="Enter Number"/>
+            <br/><br/>
+            <label>Gender : </label>
+            <input type="radio"name="gender"/>Male
+            <input type="radio"name="gender"/>Female
+            <input type="radio"name="gender"/>Other
+            <br/><br/>
+            <label>Skills : </label>
+            <input type="checkbox"name="skills"/>HTML
+            <input type="checkbox"name="skills"/>PYTHON
+            <input type="checkbox"name="skills"/>JAVA
+            <input type="checkbox"name="skills"/>CSS
+            <input type="checkbox"name="skills"/>SQL
+            <br/><br/>
+            <label>Role : </label>
+            <select>
+                <option value="student">Student</option>
+                <option value="employee">Employee</option>
+            </select>
+            <br/><br/>
+            <label>Resume : </label>
+            <input type="file" accept=".pdf,.doc"/>
+            <br/><br/>
+            <button>SUBMIT</button>
+        </form>
+    </div>
+</body>
+</html>
